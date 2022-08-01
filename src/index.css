@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Banana Grotesk Light";
+  src: url(./fonts/bananagrotesk/BananaGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: "Greader";
+  src: url(./fonts/greader/Greader.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Banana Grotesk Light";
+}
+
+::-webkit-scrollbar {
+  width: 2.5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2.5px lightgrey;
+  box-shadow: inset 0 0 2.5px lightgrey;
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
