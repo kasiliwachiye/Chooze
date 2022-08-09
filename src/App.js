@@ -1,8 +1,7 @@
-import Home from './components/content-creator/Home'
-import {} from 'react-router-dom'
+import Feed from './components/content-creator/feed/Feed'
 
 function App() {
-  return <Home />;
+  return <Feed />;
 }
 
 export default App;
