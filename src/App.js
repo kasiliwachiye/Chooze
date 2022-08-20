@@ -1,7 +1,7 @@
-import Feed from './components/content-creator/feed/Feed'
+import ViewBrand from './components/content-creator/ViewBrand';
 
 function App() {
-  return <Feed />;
+  return <ViewBrand />
 }
 
 export default App;
