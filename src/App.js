@@ -1,7 +1,8 @@
-import ViewBrand from './components/content-creator/ViewBrand';
+import ViewCampaign from './components/content-creator/ViewCampaign';
+import CampaignDetails from './components/content-creator/CampaignDetails' 
 
 function App() {
-  return <ViewBrand />
+  return <CampaignDetails />
 }
 
 export default App;
