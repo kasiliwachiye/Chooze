@@ -2,9 +2,23 @@ import React from "react";
 import Footer from "../common/Footer";
 import NavBar from "../common/NavBar";
 
+function nFormatter(num) {
+  if (num >= 1000000000) {
+    return (num / 1000000000).toFixed(1).replace(/\.0$/, "") + "B";
+  }
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+  }
+  if (num >= 1000) {
+    return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+  }
+  return num;
+}
+
 const ViewBrand = ({
   brandAvatar = "https://dummyimage.com/300x300",
   brandName = "Brand Name",
+  amountDisbursed = 9310000
 }) => {
   return (
     <>
@@ -75,7 +89,7 @@ const ViewBrand = ({
                 <div class="stats shadow">
                   <div class="stat place-items-center">
                     <div class="stat-title">Funds Disbursed</div>
-                    <div class="stat-value">931K</div>
+                    <div class="stat-value">{nFormatter(amountDisbursed)}</div>
                   </div>
 
                   <div class="stat place-items-center">
