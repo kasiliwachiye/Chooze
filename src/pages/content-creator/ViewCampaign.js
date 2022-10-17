@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../common/Footer";
+import Footer from "../../components/common/Footer";
 import NavBar from "../common/NavBar";
 
 const ViewCampaign = ({

@@ -1,11 +1,6 @@
 @font-face {
-  font-family: "Banana Grotesk Light";
-  src: url(./fonts/bananagrotesk/BananaGrotesk-Medium.otf);
-}
-
-@font-face {
-  font-family: "Greader";
-  src: url(./fonts/greader/Greader.otf);
+  font-family: "Lausanne-Regular";
+  src: url(./fonts/Lausanne-Regular.otf);
 }
 
 @tailwind base;
@@ -34,7 +29,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Lausanne-Regular',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

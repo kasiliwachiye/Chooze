@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Lausanne-Regular";
+  src: url(../fonts/Lausanne-Regular.otf);
+}
+
+@font-face {
+  font-family: "Sacred-Valley";
+  src: url(../fonts/Sacred-Valley.ttf);
+}
+
+.sacred-valley {
+  font-family: 'Sacred-Valley';
+}
